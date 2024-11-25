@@ -1,7 +1,7 @@
 # Git_Commands
 
 Below is a list of commonly used Git commands with explanations and examples:
-1. Configuration Commands
+### 1. Configuration Commands
 git config
 
 Used to set user details or other configurations.
@@ -13,7 +13,7 @@ Used to set user details or other configurations.
 
     Description: Sets your username and email for all repositories. Use --local instead of --global to set it for a specific repository.
 
-2. Initialize a Repository
+### 2. Initialize a Repository
 git init
 
 Starts a new Git repository.
@@ -24,7 +24,7 @@ Starts a new Git repository.
 
     Description: Initializes a new Git repository in the current folder.
 
-3. Clone a Repository
+### 3. Clone a Repository
 git clone
 
 Copies an existing repository to your local machine.
@@ -35,7 +35,7 @@ Copies an existing repository to your local machine.
 
     Description: Downloads the project and its commit history.
 
-4. Check Status
+### 4. Check Status
 git status
 
 Shows the working directory and staging area status.
@@ -46,7 +46,8 @@ Shows the working directory and staging area status.
 
     Description: Displays untracked files, changes to be committed, etc.
 
-5. Add Changes
+
+### 5. Add Changes
 git add
 
 Stages changes to be committed.
@@ -58,7 +59,8 @@ Stages changes to be committed.
 
     Description: Prepares changes for the next commit.
 
-6. Commit Changes
+
+### 6. Commit Changes
 git commit
 
 Records changes to the repository.
@@ -69,7 +71,8 @@ Records changes to the repository.
 
     Description: Saves changes along with a descriptive message.
 
-7. View Log
+
+### 7. View Log
 git log
 
 Shows the commit history.
@@ -81,7 +84,8 @@ Shows the commit history.
 
     Description: Displays commit details (hash, author, date, and message).
 
-8. Create a New Branch
+
+### 8. Create a New Branch
 git branch
 
 Lists, creates, or deletes branches.
@@ -93,7 +97,8 @@ Lists, creates, or deletes branches.
 
     Description: Manages branches in the repository.
 
-9. Switch Branch
+
+### 9. Switch Branch
 git checkout
 
 Switches to another branch.
@@ -104,7 +109,8 @@ Switches to another branch.
 
     Description: Moves to the specified branch. Use git switch in newer Git versions.
 
-10. Merge Branch
+
+### 10. Merge Branch
 git merge
 
 Combines changes from another branch into the current branch.
@@ -115,7 +121,8 @@ Combines changes from another branch into the current branch.
 
     Description: Integrates changes from new-feature into the current branch.
 
-11. Push Changes
+
+### 11. Push Changes
 git push
 
 Uploads changes to a remote repository.
@@ -126,7 +133,8 @@ Uploads changes to a remote repository.
 
     Description: Sends committed changes to the remote repository.
 
-12. Pull Changes
+
+### 12. Pull Changes
 git pull
 
 Fetches and merges changes from the remote repository.
@@ -137,7 +145,8 @@ Fetches and merges changes from the remote repository.
 
     Description: Updates your local branch with changes from the remote.
 
-13. Fetch Changes
+
+### 13. Fetch Changes
 git fetch
 
 Downloads changes but does not merge them.
@@ -148,7 +157,8 @@ Downloads changes but does not merge them.
 
     Description: Updates your local tracking branches.
 
-14. Discard Changes
+
+### 14. Discard Changes
 git checkout or git restore
 
 Reverts changes in the working directory.
@@ -160,7 +170,8 @@ Reverts changes in the working directory.
 
     Description: Discards local changes in the specified file.
 
-15. Remove Files
+
+### 15. Remove Files
 git rm
 
 Removes files from the working directory and stages the removal.
@@ -171,7 +182,8 @@ Removes files from the working directory and stages the removal.
 
     Description: Deletes a file and prepares it for the next commit.
 
-16. Stash Changes
+
+### 16. Stash Changes
 git stash
 
 Temporarily saves changes.
@@ -183,7 +195,8 @@ Temporarily saves changes.
 
     Description: Saves uncommitted changes for later use.
 
-17. Tagging
+
+### 17. Tagging
 git tag
 
 Creates a tag for a specific commit.
@@ -195,7 +208,8 @@ Creates a tag for a specific commit.
 
     Description: Marks a point in the repository's history.
 
-18. View Remote
+
+### 18. View Remote
 git remote
 
 Manages remote repositories.
@@ -207,7 +221,8 @@ Manages remote repositories.
 
     Description: Links or lists remote repositories.
 
-19. Revert a Commit
+
+### 19. Revert a Commit
 git revert
 
 Creates a new commit to undo changes.
@@ -218,7 +233,8 @@ Creates a new commit to undo changes.
 
     Description: Reverts changes from the specified commit.
 
-20. Reset Changes
+
+### 20. Reset Changes
 git reset
 
 Undoes commits or unstages files.
@@ -230,7 +246,8 @@ Undoes commits or unstages files.
 
     Description: Resets the current branch to a specific state.
 
-21. Show Changes
+
+### 21. Show Changes
 git diff
 
 Shows differences between changes.
@@ -242,7 +259,8 @@ Shows differences between changes.
 
     Description: Compares file changes.
 
-22. Delete a Branch
+
+### 22. Delete a Branch
 git branch -d
 
 Deletes a branch.
@@ -253,7 +271,8 @@ Deletes a branch.
 
     Description: Removes the specified branch.
 
-23. Cherry Pick
+
+### 23. Cherry Pick
 git cherry-pick
 
 Applies a specific commit to the current branch.
@@ -264,7 +283,8 @@ Applies a specific commit to the current branch.
 
     Description: Adds changes from a single commit.
 
-24. Squash Commits
+
+### 24. Squash Commits
 git rebase
 
 Combines multiple commits into one.
