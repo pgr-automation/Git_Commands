@@ -294,3 +294,22 @@ Combines multiple commits into one.
 git rebase -i HEAD~3
 
 Description: Allows interactive editing of the last three commits.
+
+---
+#Git Tag Commands
+
+## How to Remove All Git Tags
+
+Follow the steps below to remove all Git tags from both your local and remote repository.
+
+---
+
+### 1. Remove All Local Tags
+
+Run the following command to delete all tags locally:
+
+```bash
+git tag -l | xargs git tag -d
+```
+
+### 2. 
